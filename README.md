@@ -1,4 +1,4 @@
-# TEN Leasing — Asset List Comparison
+# — Asset List Comparison
 
 A Streamlit app that compares two dated asset-list workbooks, cleans them, works
 out what was added and removed, lets you build calculated columns, and writes the
