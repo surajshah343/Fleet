@@ -32,7 +32,7 @@ from src.loader import formula_leak_ratio, profile_workbook, read_sheet
 from src.naming import build_column_map, pair_sheets
 
 st.set_page_config(
-    page_title="TEN Asset List Comparison",
+    page_title="Fleet Asset List Comparison",
     page_icon="📊",
     layout="wide",
 )
@@ -123,7 +123,7 @@ def cached_clean(path: str, size: int, sheet: str, header_row: int, options_key:
 # Sidebar: file intake
 # ---------------------------------------------------------------------------
 
-st.sidebar.title("📊 Asset List Comparison")
+st.sidebar.title("📊 Asset List Comparison- by Suraj Shah")
 st.sidebar.caption("Compare two dated asset lists, then build calculated columns.")
 
 uploads = st.sidebar.file_uploader(
@@ -136,7 +136,7 @@ uploads = st.sidebar.file_uploader(
 st.sidebar.divider()
 
 if not uploads:
-    st.title("Asset List Comparison")
+    st.title("Asset List Comparison - by Suraj Shah")
     st.info(
         "Upload two dated asset-list workbooks in the sidebar to begin. "
         "The app figures out which is newer, lines the sheets up, cleans both, "
