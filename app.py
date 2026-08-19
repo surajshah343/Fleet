@@ -1,4 +1,4 @@
-"""TEN Leasing asset-list comparison app.
+"""Leasing asset-list comparison app.
 
 Run with:  streamlit run app.py
 """
