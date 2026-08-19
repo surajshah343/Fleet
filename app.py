@@ -1,4 +1,4 @@
-"""Leasing asset-list comparison app.
+"""Leasing asset-list comparison app by Suraj Shah.
 
 Run with:  streamlit run app.py
 """
